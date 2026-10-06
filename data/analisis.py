@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 ruta_csv = "sensores_industriales.csv"
-ruta_salida = "resultados/alertas.csv"
+ruta_salida = "../resultados/alertas.csv"
 
 def analizar_datos():
     try:
