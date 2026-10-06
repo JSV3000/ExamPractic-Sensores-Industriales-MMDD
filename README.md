@@ -13,9 +13,9 @@ Descripción: El dataset contiene 100,000 mediciones secuenciales que incluyen e
 ##Instalacion *Clonar el repositorio: git clone https://github.com/JSV3000/ExamPractic-Sensores-Industriales-MMDD.git* Entrar al proyecto: cd ExamPractic-Sensores-Industriales
 *Crear el entorno: python -m venv .venv 
 *Activarlo e instalar dependencias: source .venv/bin/activate pip install -r requirements.txt (linux / mac) o .venv\Scripts\activate
-pip install -r requirements.txt (windows)
+pip install -r requirements.txt 
 
-##Ejecucion Para ejecutar el análisis, realizar los cálculos y exportar el archivo de resultados, ejecuta el siguiente comando desde la terminal en la raíz del proyecto:  python analisis.py
+##Ejecucion Para ejecutar el análisis, realizar los cálculos y exportar el archivo de resultados, ejecuta el siguiente comando desde la terminal en la raíz del proyecto: cd data y luego  python analisis.py
 
 ##Analisis realizados 
 Cuantificación del volumen de registros y recuento de sensores distintos operando en la red.
